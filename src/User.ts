@@ -1,6 +1,6 @@
 import { randomUUID } from "crypto";
 import { Person } from "./Person";
-import { IPerson, IUser } from "./types";
+import { IUser } from "./types";
 
 export class User extends Person {
 	private uuid: string
