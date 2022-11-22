@@ -1,0 +1,18 @@
+{
+	"scripts": {
+		"dev": "ts-node-dev ./src/index.ts",
+		"lint": "ts-standard --fix",
+		"start": "node build/index.js",
+		"transpile": "tsc"
+	},
+	"dependencies": {
+		"nodejs": "^0.0.0",
+		"uuid": "^9.0.0"
+	},
+	"devDependencies": {
+		"@types/node": "^18.11.9",
+		"ts-node-dev": "^2.0.0",
+		"ts-standard": "^12.0.1",
+		"typescript": "^4.9.3"
+	}
+}
