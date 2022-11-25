@@ -1,14 +1,15 @@
-import { CreateUserCommand } from "./Command"
-import { IPerson } from "./types"
-import { UserManager } from "./UserManager"
+import { CreateUserCommand } from './User/use-cases/UserCreator'
+import { UserManager } from './User/UserManager'
+import fs from 'fs'
+import database from './Database/database.json'
 
 const manager = new UserManager()
 
-const user: IPerson = {
+const newUser = manager.execute(CreateUserCommand({
 	name: 'Facundo',
 	age: 21
-}
+}))
 
+console.log(newUser)
 
-
-console.log(manager.execute(CreateUserCommand(user)))
+fs.writeFileSync(`${__dirname}/database.json`, newUser)

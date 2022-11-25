@@ -1,11 +1,9 @@
-import { IPerson } from "./types"
+export abstract class Person {
+  protected name: string
+  protected age: number
 
-export class Person {
-	protected name: string
-	protected age: number
-
-	constructor(name: string, age: number) {
-		this.name = name
-		this.age = age
-	}
+  constructor (name: string, age: number) {
+    this.name = name
+    this.age = age
+  }
 }
