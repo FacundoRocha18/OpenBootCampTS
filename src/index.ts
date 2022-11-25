@@ -1,5 +1,14 @@
-import { User } from "./User"
+import { CreateUserCommand } from "./Command"
+import { IPerson } from "./types"
+import { UserManager } from "./UserManager"
 
-const user1 = new User('Facundo', 21)
+const manager = new UserManager()
 
-console.log(user1.getUser())
+const user: IPerson = {
+	name: 'Facundo',
+	age: 21
+}
+
+
+
+console.log(manager.execute(CreateUserCommand(user)))
