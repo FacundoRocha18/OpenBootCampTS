@@ -1,5 +1,5 @@
-import { Command } from '../Command'
-import { IUser } from '../types'
+import { Command } from '../Shared/Command'
+import { IUser } from '../Shared/types'
 
 export class UserManager {
   private readonly users: IUser[]

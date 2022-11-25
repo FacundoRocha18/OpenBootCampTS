@@ -1,3 +1,52 @@
 {
-	
+  "users": [
+    {
+      "uuid": "ef8c187b-81f4-47dd-86d0-d44817db07e6",
+      "name": "Facundo",
+      "age": 21,
+      "signUpDate": "2022-11-25T19:35:52.859Z"
+    },
+    {
+      "uuid": "0cea34ee-5a0b-4bca-9d56-ff9887147a98",
+      "name": "Richard",
+      "age": 21,
+      "signUpDate": "2022-11-25T19:59:05.735Z"
+    },
+    {
+      "uuid": "ef7a225d-8d5a-4732-ba36-8006412a6f7b",
+      "name": "Nacho",
+      "age": 24,
+      "signUpDate": "2022-11-25T20:01:38.082Z"
+    },
+    {
+      "uuid": "3b1a74c4-5751-4d23-b176-9518bcfa7c35",
+      "name": "Joaco",
+      "age": 18,
+      "signUpDate": "2022-11-25T20:07:31.287Z"
+    },
+    {
+      "uuid": "137ea134-642b-499a-a92d-f42772626050",
+      "name": "Joaco",
+      "age": 18,
+      "signUpDate": "2022-11-25T20:09:14.220Z"
+    },
+    {
+      "uuid": "9834ec61-f30b-43d5-808b-62c94631b58d",
+      "name": "Nahuel",
+      "age": 18,
+      "signUpDate": "2022-11-25T20:11:10.910Z"
+    },
+    {
+      "uuid": "d1ae65cf-db95-466f-ad27-8dc8b9663907",
+      "name": "Nahuel",
+      "age": 18,
+      "signUpDate": "2022-11-25T20:12:31.067Z"
+    },
+    {
+      "uuid": "1a05975c-a7cd-4844-a8db-a9dcc89d392a",
+      "name": "Huevo",
+      "age": 18,
+      "signUpDate": "2022-11-25T20:17:13.978Z"
+    }
+  ]
 }

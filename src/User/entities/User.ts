@@ -1,6 +1,6 @@
 import { randomUUID } from 'crypto'
-import { Person } from '../../Person'
-import { IUser } from '../../types'
+import { Person } from '../../Shared/Person'
+import { IUser } from '../../Shared/types'
 
 export class User extends Person {
   private readonly uuid: string
