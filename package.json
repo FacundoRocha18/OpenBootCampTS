@@ -1,7 +1,8 @@
 {
 	"scripts": {
 		"dev": "ts-node-dev ./src/index.ts",
-		"lint": "ts-standard --fix",
+		"lint": "eslint",
+		"lint:fix": "eslint --fix",
 		"start": "node build/index.js",
 		"transpile": "tsc"
 	},
@@ -13,8 +14,13 @@
 	"devDependencies": {
 		"@types/express": "^4.17.14",
 		"@types/node": "^18.11.9",
+		"@typescript-eslint/eslint-plugin": "^5.45.0",
+		"eslint": "^8.28.0",
+		"eslint-config-standard-with-typescript": "^23.0.0",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-n": "^15.5.1",
+		"eslint-plugin-promise": "^6.1.1",
 		"ts-node-dev": "^2.0.0",
-		"ts-standard": "^12.0.1",
 		"typescript": "^4.9.3"
 	}
 }
